@@ -83,6 +83,7 @@ function resetTimer(){
     seconds.textContent = `00 :`
     miSeconds.textContent = `00`
     clearInterval(timer)
+    timerFunction()
 }
 
 //----------------------------------------------------------//
